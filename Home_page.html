@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🥘Hearts & Flames Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Hearts & Flames</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#special-dishes">Special Dishes</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background-image: url('bg.jpg');"> 
+        <div class="hero-content">
+            <h1>Welcome to Hearts & Flames</h1>
+            <p>Experience culinary excellence in an elegant atmosphere</p>
+            <a href="#reservation" class="btn-primary" style="color: #0e0d0d;">Make a Reservation</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Hearts & Flames, where culinary artistry meets exceptional service. For over two decades, we have been dedicated to creating memorable dining experiences that celebrate the finest flavors from around the world.</p>
+                    
+                    <p>Our passionate chefs craft each dish with the freshest ingredients, combining traditional techniques with innovative approaches to create a menu that delights and surprises.</p>
+                    
+                    <p>Whether you're joining us for an intimate dinner, a business lunch, or a special celebration, our elegant atmosphere and attentive service ensure every visit is extraordinary.</p>
+                </div>
+                <div class="about-image">
+                    <img src="interior.jpg" alt="Restaurant Interior" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkludGVyaW9yIEltYWdlPC90ZXh0Pjwvc3ZnPg=='">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Dishes Section -->
+    <section id="special-dishes" class="special-dishes">
+        <div class="container">
+            <h2 class="section-title">Our Special Dishes</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="samon.jpg" alt="Grilled Salmon" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlNhbG1vbiBEaXNoPC90ZXh0Pjwvc3ZnPg=='">
+                    </div>
+                    <div class="dish-info">
+                        <h3 class="dish-name">Grilled Atlantic Salmon</h3>
+                        <p class="dish-description">Fresh Atlantic salmon grilled to perfection, served with seasonal vegetables and lemon herb butter.</p>
+                        <div class="dish-price">$28.99</div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="beaf.jpg" alt="Premium Beef" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkJlZWYgRGlzaDwvdGV4dD48L3N2Zz4='">
+                    </div>
+                    <div class="dish-info">
+                        <h3 class="dish-name">Prime Ribeye Steak</h3>
+                        <p class="dish-description">Premium aged ribeye steak cooked to your preference, accompanied by garlic mashed potatoes.</p>
+                        <div class="dish-price">$42.99</div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="grilled_chicken.jpg" alt="Grilled Chicken" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkdyaWxsZWQgQ2hpY2tlbjwvdGV4dD48L3N2Zz4='">
+                    </div>
+                    <div class="dish-info">
+                        <h3 class="dish-name">Mediterranean Chicken</h3>
+                        <p class="dish-description">Herb-marinated chicken breast grilled with Mediterranean spices, served with quinoa salad.</p>
+                        <div class="dish-price">$22.99</div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="pasta.jpg" alt="Gourmet Pasta" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlBhc3RhIERpc2g8L3RleHQ+PC9zdmc+'">
+                    </div>
+                    <div class="dish-info">
+                        <h3 class="dish-name">Truffle Carbonara</h3>
+                        <p class="dish-description">House-made fettuccine with truffle cream sauce, pancetta, and fresh parmesan cheese.</p>
+                        <div class="dish-price">$26.99</div>
+                    </div>
+                </div>
+
+                <div class="dish-card">
+                    <div class="dish-image">
+                        <img src="rice_bowl.jpg" alt="Asian Rice Bowl" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjI1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNiIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPlJpY2UgQm93bDwvdGV4dD48L3N2Zz4='">
+                    </div>
+                    <div class="dish-info">
+                        <h3 class="dish-name">Asian Fusion Bowl</h3>
+                        <p class="dish-description">Jasmine rice topped with teriyaki glazed vegetables, edamame, and your choice of protein.</p>
+                        <div class="dish-price">$18.99</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <h2 class="section-title">Make a Reservation</h2>
+                <p>Reserve your table for an unforgettable dining experience. We look forward to serving you!</p>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">Reservation Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" name="time" required>
+                            <option value="">Select Time</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="6:30 PM">6:30 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                            <option value="7:30 PM">7:30 PM</option>
+                            <option value="8:00 PM">8:00 PM</option>
+                            <option value="8:30 PM">8:30 PM</option>
+                            <option value="9:00 PM">9:00 PM</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Select Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5 Guests</option>
+                            <option value="6">6 Guests</option>
+                            <option value="more">More than 6</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="special-requests">Special Requests</label>
+                        <textarea id="special-requests" name="special-requests" placeholder="Any dietary restrictions, special occasions, or other requests..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <button type="submit" class="btn-primary">Reserve Table</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>📍 Oxford Village, Level 2/63 Oxford St, Darlinghurst NSW 2010, Australia</p>
+                    <p>📞 (02) 1234 5678</p>
+                    <p>✉️ info@heartsandflames.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Thursday: 5:00 PM - 10:00 PM</p>
+                    <p>Friday - Saturday: 5:00 PM - 11:00 PM</p>
+                    <p>Sunday: 4:00 PM - 9:00 PM</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#special-dishes">Menu</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected for updates and special offers</p>
+                    <p>Facebook | Instagram | Twitter</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Hearts & Flames Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your reservation request! We will contact you shortly to confirm your booking.');
+        });
+
+        // Add active class to navigation based on scroll position
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
